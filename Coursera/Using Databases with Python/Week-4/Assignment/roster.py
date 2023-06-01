@@ -28,6 +28,7 @@ class DB:
             CREATE TABLE User(
                 id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
                 name TEXT UNIQUE
+                role = entry[2]
             );
 
             CREATE TABLE Course(
